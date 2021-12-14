@@ -21,7 +21,7 @@
 .benefits__block {
   width: calc((1170px - 62px * 2) / 3);
 }
-.title-3 {
+.benefits__title-3 {
   font-family: "Big Shoulders Display", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -32,7 +32,7 @@
   margin-top: 25px;
   margin-bottom: 16px;
 }
-.text-mini {
+.benefits__text-mini {
   font-family: "Nunito", Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 300;
@@ -42,19 +42,17 @@
   color: rgba(51, 51, 51, 0.501557);
 }
 
-
 .title-2 {
-
   font-family: "Big Shoulders Display", Arial, Helvetica, sans-serif;
-font-style: normal;
-font-weight: bold;
-font-size: 56px;
-line-height: 64px;
-text-align: center;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 64px;
+  text-align: center;
 
-color: #333333;
-margin-top: 74px;
-margin-bottom: 54px;
+  color: #333333;
+  margin-top: 74px;
+  margin-bottom: 54px;
 }
 
 .destinations .container {
@@ -65,7 +63,6 @@ margin-bottom: 54px;
   grid-template-rows: 288px 288px;
   grid-template-columns: 570px 270px 270px;
   grid-gap: 30px;
-  
 }
 .grid .USA {
   grid-column: 1/2;
@@ -87,15 +84,14 @@ margin-bottom: 54px;
   background-image: url(img/USA.png);
   background-size: cover;
   box-sizing: border-box;
-  
 }
 .UK {
   background-image: url(img/UK.png);
   background-size: cover;
   box-sizing: border-box;
 }
-.China { 
-background-image: url(img/China.png);
+.China {
+  background-image: url(img/China.png);
   background-size: cover;
   box-sizing: border-box;
 }
@@ -104,76 +100,118 @@ background-image: url(img/China.png);
   background-size: cover;
   box-sizing: border-box;
 }
-.title-4 {
-  font-family: Big Shoulders Display;
+
+.USA .destinations__title-4 {
+  font-family: "Big Shoulders Display", Arial, Helvetica, sans-serif;
 font-style: normal;
+font-weight: 300;
 font-size: 24px;
 line-height: 32px;
-
-}
-.USA .title-4 {
-  font-weight: 300;
 text-transform: uppercase;
 color: #E64D47;
-margin-top: 439px;
-margin-left: 32px;
 
+  margin-top: 439px;
+  margin-left: 32px;
 }
-.USA .title-3 {
+.USA .destinations__title-3 {
+  font-family: "Big Shoulders Display", Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 48px;
 color: #FFFFFF;
-margin-top: 18px;
-margin-left: 32px;
+  margin-top: 18px;
+  margin-left: 32px;
 }
-.USA .text-mini {
-  color: rgba(255, 255, 255, 0.502972);
+.USA .destinations__text-mini {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 32px;
+color: rgba(255, 255, 255, 0.502972);
+
   margin-top: 16px;
   margin-left: 32px;
 }
-.UK .title-4 { 
+.UK .destinations__title-4 {
+  font-family: "Big Shoulders Display", Arial, Helvetica, sans-serif;
+font-style: normal;
 font-weight: bold;
+font-size: 24px;
+line-height: 32px;
 color: #333333;
-margin-top: 199px;
-margin-left: 32px;
+
+  margin-top: 199px;
+  margin-left: 32px;
 }
-.UK .text-mini {
+.UK .destinations__text-mini {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 32px;
+color: rgba(51, 51, 51, 0.501557);
+
   margin-top: 2px;
   margin-left: 32px;
 }
-.China .title-4 { 
-  font-weight: bold;
-  color: #333333;
+.China .destinations__title-4 {
+  font-family: "Big Shoulders Display", Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+color: #333333;
   margin-top: 199px;
   margin-left: 32px;
-  }
-  .China .text-mini {
-    margin-top: 2px;
-    margin-left: 32px;
-  }
-  .Thailand .title-4 { 
-    font-weight: bold;
-    color: #FFFFFF;
-    margin-top: 199px;
-    margin-left: 32px;
-    }
-    .Thailand .text-mini {
-      margin-top: 2px;
-      margin-left: 32px;
-      color: rgba(255, 255, 255, 0.502972);
-    }
-    .deco {
-      width: 176px;
-      height: 176px;
-      position: absolute;
-      top: 72px;
-      left: -48px;
-      z-index: -1;
-      
-    }
-    .deco1 {
-      width: 176px;
-      height: 176px;
-      position: absolute;
-      top: 276px;
-      right: -45px;
-      z-index: -1;
-    }
+}
+.China .destinations__text-mini {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 32px;
+color: rgba(51, 51, 51, 0.501557);
+  margin-top: 2px;
+  margin-left: 32px;
+}
+.Thailand .destinations__title-4 {
+  font-family: "Big Shoulders Display", Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+color: #FFFFFF;
+
+  margin-top: 199px;
+  margin-left: 32px;
+}
+.Thailand .destinations__text-mini {
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 32px;
+color: rgba(255, 255, 255, 0.502972);
+
+  margin-top: 2px;
+  margin-left: 32px;
+ 
+}
+.destinations__deco {
+  width: 176px;
+  height: 176px;
+  position: absolute;
+  top: 72px;
+  left: -48px;
+  z-index: -1;
+}
+.destinations__deco1 {
+  width: 176px;
+  height: 176px;
+  position: absolute;
+  top: 276px;
+  right: -45px;
+  z-index: -1;
+}
