@@ -1,0 +1,28 @@
+@import "./var/_index.scss";
+
+@import "./mixin/_index.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+@import './sections/_benefits.scss';
+
+.title-2 {
+  @include title-2;
+  margin-top: 74px;
+}
+@import './sections/_destinations.scss';
+@import './sections/_reviews.scss';
+@import './sections/_review-card.scss';
+@import './sections/_newsletter.scss';
+@import './sections/_travel.scss';
+@import './sections/_favorite.scss';
+@import './sections/_galery.scss';
+@import './sections/_header.scss';
+

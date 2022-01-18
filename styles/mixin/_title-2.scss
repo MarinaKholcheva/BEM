@@ -1,0 +1,10 @@
+@mixin title-2 ($color: #333333, $margin-botom: 54px) {
+    font-family: $font-BS;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 64px;
+    text-align: center;
+    color: $color;
+    margin-bottom: $margin-botom;  
+}

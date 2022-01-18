@@ -1,0 +1,10 @@
+@mixin section-title ($color: #333333 ) {
+font-family: $font-BS ;
+font-style: normal;
+font-weight: bold;
+font-size: 56px;
+line-height: 64px;
+text-align: center;
+color: $color;
+
+}

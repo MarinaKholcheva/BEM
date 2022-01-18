@@ -1,0 +1,65 @@
+.newsletter {
+    background: #E64D47;
+    
+    .container {
+        padding-top: 74px;
+        padding-bottom: 74px;
+    }
+    
+    .flex {
+        display: flex;
+        justify-content: space-between;
+        &--a-end {
+            align-items: flex-end;
+        }
+        
+    }
+    &__header {
+        width: 100%;
+        margin-bottom: 87px;
+    }
+    &__title-white {
+      @include title-2 ($color: #FFFFFF);
+      text-align: start; 
+      margin-bottom: unset;
+    }
+    &__descrip {
+        @include text-mini ($color: rgba(255, 255, 255, 0.502972));
+
+    }
+    
+    &__input {
+        width: 370px;
+        height: 48px;
+        background: #FFFFFF;
+border: 1px solid #DADADA;
+box-sizing: border-box;
+border-radius: 7px;
+padding-left: 16px;
+@include text-mini ($color: rgba(51, 51, 51, 0.501557));
+&:active,&:focus {
+outline: unset;
+}
+    }
+
+    &__button {
+        @include section-button;
+        margin-left: 30px;
+
+&:hover {
+    background: rgba(51, 51, 51, 0.501557);
+}
+&:active {
+    background: cornsilk;
+}
+    }
+
+    &__img {
+        box-sizing: border-box;
+        margin-bottom: 96px;
+    }
+    &__img-block {
+        width: 208px;
+        height: 208px;
+    }
+}
