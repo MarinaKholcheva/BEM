@@ -166,5 +166,9 @@ box-sizing: border-box;
 position: absolute;
 top: 12px;
 right: 12px;
+&--triangle {
+  top: 21px;
+  right: 21px;
+}
   }
 }
