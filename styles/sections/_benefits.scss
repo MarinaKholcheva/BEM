@@ -1,0 +1,23 @@
+.benefits {
+    background: white;
+  
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      padding: 80px 87px;
+    }
+  
+    &__block {
+      width: calc((1170px - 62px * 2) / 3);
+    }
+    &__title-3 {
+      @include title-3;
+      margin-top: 25px;
+      margin-bottom: 16px;
+    }
+    &__text-mini {
+      @include text-mini;
+      color: rgba(51, 51, 51, 0.501557);
+    }
+  }

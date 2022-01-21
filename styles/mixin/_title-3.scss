@@ -1,0 +1,9 @@
+@mixin title-3 ($color: #333333) {
+    font-family: $font-BS;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 48px;
+color: $color;
+    
+}

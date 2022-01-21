@@ -1,0 +1,174 @@
+.header {
+  background-image: url(/img/Header_back.png);
+  background-size: cover;
+  box-sizing: border-box;
+  padding-top: 16px;
+  padding-bottom: 48px;
+  padding-left: 127px;
+  padding-right: 127px;
+
+  .container {
+    position: relative;
+    z-index: 0;
+  }
+  &__deco {
+    width: 176px;
+    height: 176px;
+    position: absolute;
+    top: 320px;
+    left: 275px;
+    z-index: -1;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &--a-start {
+      align-items: flex-start;
+      justify-content: end;
+    }
+  }
+  &__nav-block {
+    margin-bottom: 365px;
+  }
+  &__nav-title {
+    @include title-3;
+    margin-right: 220px;
+  }
+  &__nav-list li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 30px;
+  }
+  .nav-link {
+    text-decoration: unset;
+    @include text-mini;
+  }
+  &__nav-face-likes {
+    width: 16px;
+    height: 16px;
+    background: #e64d47;
+    border-radius: 50%;
+
+    font-family: $font-Nun;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #ffffff;
+    margin-left: -40px;
+    margin-top: 14px;
+  }
+  &__nav-face {
+    margin-left: 245px;
+  }
+  &__title {
+    font-family: $font-BS;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 80px;
+    color: #333333;
+
+    margin-bottom: 12px;
+  }
+  &__sub-text {
+    font-family: $font-Nun;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 32px;
+    color: #333333;
+    margin-bottom: 32px;
+  }
+  &__form-restangle {
+    width: 1186px;
+    height: 160px;
+    border: 4px solid #333333;
+    box-sizing: border-box;
+    filter: drop-shadow(0px 20px 40px rgba(0, 0, 0, 0.5));
+    border-radius: 30px;
+    padding: 3px;
+  }
+  
+  &__form {
+    width: 1170px;
+    background: #ffffff;
+    border-radius: 22px;
+padding: 32px;
+box-sizing: border-box;
+  }
+  &__form-block {
+    width: calc((100% - 3 * 30px - 80px) / 3 );
+  }
+
+  &__form-title {
+    font-family: $font-Nun;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 16px;
+    text-transform: uppercase;
+
+    color: #333333;
+    margin-bottom: 12px;
+  }
+  &__input {
+    background: #ffffff;
+    border: 1px solid #dadada;
+    box-sizing: border-box;
+    border-radius: 7px;
+    width: 100%;
+    height: 48px;
+    padding-left: 16px;
+    @include text-mini($color: rgba(51, 51, 51, 0.501557));
+    &--short {
+      width: 302px;
+    }
+  }
+  &__button {
+    width: 80px;
+    height: 80px;
+    background: #55a85a;
+    border-radius: 50%;
+  
+    &:hover {
+      background: darkgreen;
+    }
+    &:active {
+      background: cornsilk;
+    }
+  }
+  &__nav-arr {
+    width: 48px;
+    height: 48px;
+    mix-blend-mode: normal;
+    opacity: 0.2;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 40px;
+
+    display: flex;
+    justify-content: center;
+  }
+  &__nav-arr-img {
+    margin: auto;
+  }
+  &__input-wraper {
+    position: relative;
+    
+  }
+  &__input-img {
+position: absolute;
+top: 12px;
+right: 12px;
+&--triangle {
+  top: 21px;
+  right: 21px;
+}
+  }
+}

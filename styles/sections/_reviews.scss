@@ -1,0 +1,34 @@
+.reviews {
+    padding-top: 75px;
+    padding-bottom: 80px;
+ 
+    .container {
+     position: relative;
+ }   
+
+.flex {
+    display: flex;
+    justify-content: space-between; 
+
+    &--j-start {
+        justify-content: flex-start;
+    }
+    &--a-center {
+        align-items: center;
+    }
+}
+&__deco {
+    width: 176px;
+    height: 176px;
+    position: absolute;
+    z-index: -1;
+&--right {
+    top: 310px;
+      right: -47px;
+}
+&--left {
+    top: 106px;
+      left: -47px;
+}
+}
+}

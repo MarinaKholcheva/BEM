@@ -1,0 +1,8 @@
+@mixin text-mini ($color: #333333) {
+    font-family: $font-Nun;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    color: $color; 
+}
